@@ -1,0 +1,77 @@
+.outline {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid;
+}
+
+.outline > svg {
+  display: flex;
+  transition: color 0.3s ease;
+  stroke: #3a3a3a;
+  width: calc(#{24} / #{1440} * 100vw);
+  height: calc(#{24} / #{800} * 100vh);
+  flex-shrink: 1;
+}
+
+.outline:hover {
+  border-color: #646cff;
+  color: #646cff;
+}
+
+.outline:hover svg {
+  color: #646cff;
+  stroke: #646cff;
+}
+
+.outline:focus {
+  outline: none;
+  border-color: #646cff;
+  color: #646cff;
+  stroke: #646cff;
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}
+
+.outline:focus svg {
+  color: #646cff;
+  stroke: #646cff;
+}
+
+.filled {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  size: 24px;
+  padding: 4px 8px;
+  gap: 8px;
+  border-radius: 8px;
+  background: #3a3a3a;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.filled > svg {
+  display: flex;
+  transition: color 0.3s ease;
+  width: calc(#{24} / #{1440} * 100vw);
+  height: calc(#{24} / #{800} * 100vh);
+  flex-shrink: 1;
+}
